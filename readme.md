@@ -23,5 +23,6 @@ Auf diese Art können die Farben über :root{} 1x angepasst werden.
 
 
 Schools Navbar:
+
 https://www.w3schools.com/css/css_navbar.asp
 [https://wiki.selfhtml.org/wiki/Navigation/Grundstruktur](https://wiki.selfhtml.org/wiki/Navigation)
