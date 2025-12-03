@@ -1,15 +1,15 @@
-css-variablen:
+<h2>CSS-Variablen:</h2>
 
-Pseudoklasse :root{}
-ist inhaltlich das selbe wie der tag-Selektor html{}
-Aber als Pseudoklasse stärker.
+<p>Pseudoklasse <code>:root{}</code><br>
+ist inhaltlich das selbe wie der Tag-Selektor <code>html{}</code><br>
+Aber als Pseudoklasse stärker.</p>
 
-in :root{} können CSS-Variablen definiert werden, die dann aufgerufen werden können.
+<p>In <code>:root{}</code> können CSS-Variablen definiert werden, die dann aufgerufen werden können.</p>
 
-CSS-Variablen starten immer mit doppeltem Bindestrich.
-Zum Aufrufen var( ) nutzen.
+<p>CSS-Variablen starten immer mit doppeltem Bindestrich.<br>
+Zum Aufrufen <code>var( )</code> nutzen.</p>
 
-:root{
+<pre><code>:root{
  --colorMain: #cd0211;
  --colorBack: #f0f0f0;
 }
@@ -18,13 +18,28 @@ body{
    color: var(--colorMain);
    background-color: var(--colorBack);
 }
+</code></pre>
 
-Auf diese Art können die Farben über :root{} 1x angepasst werden.
+<p>Auf diese Art können die Farben über <code>:root{}</code> 1x angepasst werden.</p>
 
+<br>
 
-Infos Thema Navbar:	
+<h3>Infos Thema Navbar:</h3>
+
+<p>
+<a href="https://www.w3schools.com/css/css_navbar.asp">
 https://www.w3schools.com/css/css_navbar.asp
-[https://wiki.selfhtml.org/wiki/Navigation/Grundstruktur](https://wiki.selfhtml.org/wiki/Navigation)
+</a>
+<br>
+<a href="https://wiki.selfhtml.org/wiki/Navigation/Grundstruktur">
+https://wiki.selfhtml.org/wiki/Navigation/Grundstruktur
+</a>
+</p>
 
-Infos Thema Barrierefreiheit:		
+<h3>Infos Thema Barrierefreiheit:</h3>
+
+<p>
+<a href="https://www.barrierefreiheit-dienstekonsolidierung.bund.de/Webs/PB/DE/umsetzungshilfen/webentwicklung/aria/aria-node.html">
 https://www.barrierefreiheit-dienstekonsolidierung.bund.de/Webs/PB/DE/umsetzungshilfen/webentwicklung/aria/aria-node.html
+</a>
+</p>
