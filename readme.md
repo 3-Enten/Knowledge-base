@@ -43,3 +43,13 @@ https://wiki.selfhtml.org/wiki/Navigation/Grundstruktur
 https://www.barrierefreiheit-dienstekonsolidierung.bund.de/Webs/PB/DE/umsetzungshilfen/webentwicklung/aria/aria-node.html
 </a>
 </p>
+
+<h2>Event Propagation / Bubbling 🫧</h2>
+<a href="https://wiki.selfhtml.org/wiki/JavaScript/DOM/Event/Ereignisbehandlung">https://wiki.selfhtml.org/wiki/JavaScript/DOM/Event/Ereignisbehandlung</a>
+
+<p>Wenn ein Event Listener z.B. auf 'click' auf einem Element gesetzt wird und die übergeordneten Elemente (Eltern, Großeltern …) ebenfalls Listener für denselben Event-Typ haben, werden diese ebenfalls getriggert, sobald das Event am untersten Punkt ausgelöst wird.</p>
+<ul>
+  <li>Dieses Verhalten nennt man Event Bubbling (Teil der Event Propagation).</li>
+  <li>Um zu verhindern, dass das Event weiter nach oben „blubbert“ und dort andere Listener auslöst, ruft man in den unteren Ebenen e.stopPropagation() auf.</li>
+  <li>Ohne diesen Schutz kann es besonders bei globalen Listenern (document oder window) zu ungewolltem Verhalten in UI oder Funktionalität kommen.</li>
+</ul>
